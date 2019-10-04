@@ -11,6 +11,8 @@ package com.sistemafinanceirogabriellenhart;
  */
 public class Programa {
         public static void main(String[] args) {
+            Empresa empresa = new Empresa();
+            empresa.setNome("Empresa Teste");
         
         }
 }

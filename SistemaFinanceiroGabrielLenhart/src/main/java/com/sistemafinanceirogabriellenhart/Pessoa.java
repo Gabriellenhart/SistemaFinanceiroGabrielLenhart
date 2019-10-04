@@ -11,7 +11,7 @@ package com.sistemafinanceirogabriellenhart;
  */
 public class Pessoa {
     private int id;
-    private String nome;
+    private String Nome;
     private String TipoPessoa;
     private int CNPJ_CPF;
     private int Telefone;
@@ -32,11 +32,11 @@ public class Pessoa {
     }
 
     public String getNome() {
-        return nome;
+        return Nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String Nome) {
+        this.Nome = Nome;
     }
 
     public String getTipoPessoa() {
@@ -118,12 +118,4 @@ public class Pessoa {
     public void setRegistroAtivo(int RegistroAtivo) {
         this.RegistroAtivo = RegistroAtivo;
     }
-    
-    
-    
-    
-    
-    
-    
-    
 }
