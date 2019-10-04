@@ -118,4 +118,8 @@ public class Pessoa {
     public void setRegistroAtivo(int RegistroAtivo) {
         this.RegistroAtivo = RegistroAtivo;
     }
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> b3c880c23b9e8e5f48dac1aaa961f763bb9cb312
